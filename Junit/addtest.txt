@@ -1,0 +1,16 @@
+package tybsc;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+class addtest {
+
+	@Test
+	void test() {
+		addition a = new addition();
+	    int r = a.add(10, 20);
+	    
+	    assertEquals(30, r);
+	}
+
+}

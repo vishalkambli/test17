@@ -1,0 +1,20 @@
+package refortoring;
+
+public class student {
+	int rollnum;
+	String name ;
+	public int getRollno() {
+		return rollnum;
+	}
+	public void setRollno(int rollno) {
+		this.rollnum = rollno;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
+}
